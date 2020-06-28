@@ -226,6 +226,34 @@ nav {
     }
   }
 
+  &.popularPost {
+    width: 518px;
+
+    ul {
+      li {
+        position: relative;
+
+        .tag {
+          position: absolute;
+          left: 0;
+          top: 0;
+          border-radius: 0;
+        }
+        a {
+          display: flex;
+          
+          &:before {
+            content: none;
+          }
+
+          p {
+            margin-left: 20px;
+          }
+        }
+      }
+    }
+  }
+
   ul {
     padding: 0 0;
     li {
@@ -322,8 +350,6 @@ nav {
 
       &::before {
         border-left: none;
-        // border-bottom: 4px solid $main-color;
-        // margin-top: 10px;
         margin-right: 0;
       }
       border-bottom: 2px solid $main-color;
@@ -334,5 +360,14 @@ nav {
         border-bottom: 1px solid #fff;
       }
     }
+
+    &.popularPost {
+      width: 100%;
+
+      &::before {
+        content: none;
+      }
+    }
   }
+
 }
