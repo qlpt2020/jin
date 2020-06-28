@@ -92,11 +92,11 @@ nav {
           color: #fff;
 
           &::before {
-            content: "＼";
+            content: "ďźź";
             margin-right: 10px;
           }
           &::after {
-            content: "／";
+            content: "ďź";
             margin-left: 10px;
           }
         }
@@ -277,6 +277,16 @@ nav {
 @media (max-width: 800px) {
   .main .inner {
     flex-direction: column;
+  }
+
+  nav {
+    ul {
+      li {
+        a {
+          padding: 0 0;
+        }
+      }
+    }
   }
 
   .inner {
