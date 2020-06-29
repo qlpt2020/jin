@@ -201,7 +201,9 @@ nav {
   width: 300px;
 
   h2 {
+    font-size: 56px;
     text-align: center;
+    margin: 20px 0;
   }
 }
 
@@ -232,6 +234,7 @@ nav {
     ul {
       li {
         position: relative;
+        margin-bottom: 20px;
 
         .tag {
           position: absolute;
@@ -264,7 +267,7 @@ nav {
       a {
         display: block;
         color: #fff;
-        padding: 10px 0;
+        // padding: 10px 0;
         &:before {
           content: ">";
           margin-right: 10px;
