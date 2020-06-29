@@ -39,11 +39,11 @@ ul {
 }
 
 .mainColor {
-  color: #9acc1e;
+  color: #20b2aa;
 }
 
 .tag {
-  background-color: #9acc1e;
+  background-color: #20b2aa;
   color: #fff;
   padding: 4px 12px;
   border-radius: 32px;
@@ -178,11 +178,11 @@ ul {
 }
 
 .mainColor {
-  color: #9acc1e;
+  color: #20b2aa;
 }
 
 .tag {
-  background-color: #9acc1e;
+  background-color: #20b2aa;
   color: #fff;
   padding: 4px 12px;
   border-radius: 32px;
@@ -356,7 +356,7 @@ nav ul li a:hover {
 
 .aside ul .profile .snsArea {
   padding: 16px 16px;
-  background-color: #9acc1e;
+  background-color: #20b2aa;
 }
 
 .aside ul .profile .snsArea p {
@@ -497,7 +497,7 @@ nav ul li a:hover {
 
 .footerCont h3::before {
   content: "";
-  border-left: 4px solid #9acc1e;
+  border-left: 4px solid #20b2aa;
   margin-right: 10px;
 }
 
@@ -609,7 +609,7 @@ nav ul li a:hover {
   }
   .footerCont h3 {
     padding-bottom: 12px;
-    border-bottom: 2px solid #9acc1e;
+    border-bottom: 2px solid #20b2aa;
   }
   .footerCont h3::before {
     border-left: none;
