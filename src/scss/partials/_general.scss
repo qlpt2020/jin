@@ -38,7 +38,9 @@
         border-radius: 4px;
   
         &:before {
-          content: "\e92c";
+          font-family: "Font Awesome 5 Free";
+          font-weight: 900;
+          content: "\f099";
         }
       }
 }
@@ -46,6 +48,10 @@
 $main-color: #9acc1e;
 $black: #393542;
 $content-width: 1200px;
+
+body {
+  font-family:"Font Awesome 5 Free","Font Awesome 5 Brands";
+}
 
 .forPc {
   display: block;
